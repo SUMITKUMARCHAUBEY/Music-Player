@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: aliceblue;
+}
+header {
+  background-color: #000000;
+  color: aliceblue;
+  height: 15vh;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+header li{
+    padding: 12px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 45vw;
+    
+}
+footer{
+    height: 15vh;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 15px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.playcard{
+    width: 33vw;
+    height: 72vh;
+    opacity: 60%;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: black;
+    padding: 0 1px 0 0;
+}
+.right{
+    width: 65vw;
+    height: 75vh;
+    opacity: 80%;
+    border-radius: 8px;
+    background-color: black;
+}
+.playdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main img{
+    border-radius: 30px;
+    padding-top: 10px;
+    height: 80px;
+}
+i{
+  padding: 5px;  
+}
+.playdetails div{
+    padding: 5px;  
+}
+.next{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.next div{
+    margin-top: -20px;
+    padding: 0px 30px;
+}
+hr{
+    margin-top: 20px;
+}
+h3{
+    margin-top: 10px;
+    padding: 0;
+}
+.right{
+   
+    display: flex;
+    justify-content: space-around;
+  
+}
+.list{
+    display: flex;
+    align-items: center;
+    height: 50px; 
+    padding: 20px;
+}
+.list div{
+    padding: 25px;
+}
+.column1{
+    margin-left: 30px;
+}
+.cl2{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+li input{
+   background-color: white;
+   border: 2px solid rgb(29, 170, 29);
+    border-radius: 7px;
+    width: 200px;
+    height: 25px;
+    opacity: 80%;
+  
+    
+}
+li button{
+    background-color: rgb(29, 170, 29);
+    border: 2px solid white;
+    color: #000000;
+    border-radius: 7px;
+    width: 60px;
+    height: 25px;
+    opacity: 80%;
+    
+}
